@@ -1,0 +1,11 @@
+#Su dung ham Strings
+s = input("Nhap chuoi s la: ")
+s_sub = input("Nhap chuoi s_hub la: ")
+s_find = input("Nhap chuoi s_find la: ")
+s_replace = input("Nhap chuoi s_replace la: ")
+print("Chuoi sau khi bo khoang trang o dau va cuoi chuoi la: ", s.strip())
+count = s.count(s_sub)
+print("So lan chuoi s_sub xuat hien trong s: ", count)
+in_hoa=s[0].upper()
+s_moi =in_hoa,s.replace(s_find,s_replace)
+print("Chuoi sau khi tim kiem va thay the la:", s_moi)
