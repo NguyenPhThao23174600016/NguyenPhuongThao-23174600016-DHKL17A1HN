@@ -1,0 +1,13 @@
+from ham_chuong_8 import tinh_gia_phong
+print("Cac loai ma phong:")
+print("1-Standard")
+print("2-Superior Garden View")
+print("3-Superior Ocean View")
+print("4-Garden View Bungalow")
+print("5-Pool View Bungalow")
+print("6-Family Room")
+print("7-Beach Front Bungalow")
+print("8-VIP sea View")
+a=eval(input("Nhap loai ma phong:"))
+b=eval(input("Nhap so dem:"))
+tinh_gia_phong(a,b)
